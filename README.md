@@ -71,3 +71,5 @@ Ref: http://blog.miguelgrinberg.com/post/a-cheap-bluetooth-serial-port-for-your-
 Integration of the both parts: 
 Now the modules get connected automatically whenever both of them are up. One thing about the HC05 is whenever they are paired the blinking of the led of the Bluetooth module gets slower as in it blinks in every 2sec, and if it is not paired it blinks in every second. And I tried to connect with those individually using my phone's Bluetooth but since they are already paired, both of them refused my Phone's Bluetooth connection prompt.
 The I send some data from the serial monitor of the arduino and that data showed up in putty which was connected with the Pi. I did it vise versa and it worked!
+
+![alt text](https://github.com/sayederfanarefin/iot-python-raspberry-pi-arduino-bluetooth-communication/blob/master/IMG_20151025_020431.jpg)
