@@ -1,8 +1,8 @@
-#"Communicating through Bluetooth between Raspberry Pi and Arduino"
+# "Communicating through Bluetooth between Raspberry Pi and Arduino"
 
 The project is mainly to communicate between arduino and raspberry pi over bluetooth (HC05)
 
-##Arduino part:
+## Arduino part:
 I connected the Bluetooth module’s rx to 11, tx to 10 and gn to gnd and vcc to 5v. The en pin was also HIGH (applying 3.3V) Then I powered up the arduino and also the Bluetooth module. Then I uploaded this code to Arduino:
 
 
@@ -44,11 +44,12 @@ Then I bind this module with the other Bluetooth module using its Mac address. T
 "AT+BIND= (mac of the Bluetooth connected with arduino)"
 Now, whenever both of the modules are on these two modules will automatically pair. 
 
-##Raspberry Pi part:
+## Raspberry Pi part:
 Firstly, I connected the Pi to my router and an IP was assigned to the Pi using the router's DHCP. Then I figured out the Pi's assigned address using the router's admin panel, and used "Putty" to connect to Pi over ssh using the IP address.
  Then I connect the Bluetooth module's rx to pi's tx pin and Bluetooth module's tx pin to pi's rx pin. 
 Since this module is capable of communicating using the serial, so I connected it with the Pi's serial pins. Then I installed "" package in order to communicate with the Bluetooth. And wrote this script in python:
 
+```
 import serial
 ser = serial.Serial('/dev/ttyAMA0' , 9600)
 
@@ -61,7 +62,7 @@ while (a < 10):
     print("from arduino: " + name_return)
     a = a+1
 
-
+```
 
 The Bluetooth module was in slave mode.
 Then I browse to that directory using the Linux commands and then ran that script.
