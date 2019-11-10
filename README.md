@@ -1,6 +1,10 @@
 # "Communicating through Bluetooth between Raspberry Pi and Arduino"
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues) [![Python 2.7](https://img.shields.io/badge/python-2.7-blue.svg)](https://www.python.org/downloads/release/python-270/)
 
 The project is mainly to communicate between arduino and raspberry pi over bluetooth (HC05)
+
+## Components:
+1. ![Arduino Uno] (https://www.amazon.com/Arduino-Development-Microcontroller-ATmega328-ATMEGA16U2/dp/B07V9VGXFS/ref=sr_1_8?keywords=arduino+uno&qid=1573429666&sr=8-8)
 
 ## Arduino part:
 I connected the Bluetooth module’s rx to 11, tx to 10 and gn to gnd and vcc to 5v. The en pin was also HIGH (applying 3.3V) Then I powered up the arduino and also the Bluetooth module. Then I uploaded this code to Arduino:
