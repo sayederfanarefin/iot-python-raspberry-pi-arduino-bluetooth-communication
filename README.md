@@ -75,3 +75,6 @@ Now the modules get connected automatically whenever both of them are up. One th
 The I send some data from the serial monitor of the arduino and that data showed up in putty which was connected with the Pi. I did it vise versa and it worked!
 
 ![alt text](https://github.com/sayederfanarefin/iot-python-raspberry-pi-arduino-bluetooth-communication/blob/master/IMG_20151025_020431.jpg)
+
+
+For further help you can contact me via email: erfanjordison@gmail.com
