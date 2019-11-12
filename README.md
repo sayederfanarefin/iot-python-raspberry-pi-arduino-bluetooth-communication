@@ -1,5 +1,5 @@
 # Communication using Bluetooth between Raspberry Pi and Arduino
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues) [![Python 2.7](https://img.shields.io/badge/python-2.7-blue.svg)](https://www.python.org/downloads/release/python-270/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/dwyl/esta/issues) [![Python 2.7](https://img.shields.io/badge/python-2.7-blue.svg)](https://www.python.org/downloads/release/python-270/) [![HitCount](http://hits.dwyl.io/sayederfanarefin/iot-python-raspberry-pi-arduino-bluetooth-communication.svg)](http://hits.dwyl.io/sayederfanarefin/iot-python-raspberry-pi-arduino-bluetooth-communication)
 
 The project is mainly to communicate between arduino and raspberry pi over bluetooth (HC05)
 
